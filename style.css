@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+  --primary-color:#FDE68A;
+  --button-color:#FBBF24;
+
+}
+
+body{
+font-family: 'Architects Daughter', cursive;
+}
+textarea{
+  display: block;
+  width: 60%;
+  margin: 1rem 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10vh;
+  /* margin: 1rem; */
+
+}
+
+.container{
+  /* padding: 2rem; */
+  font-size: 2rem;
+  text-align: center;
+}
+.navigation{
+  background-color: var(--primary-color);
+  color:black;
+  padding: 0.5rem 5rem;
+  border-top-left-radius: 1rem;
+}
+
+#myButton{
+  background-color: var(--button-color);
+  padding: 1rem 2rem;
+  border-style: none;
+  cursor: pointer;
+  margin-left: 45%;
+  border-radius: 0.5rem;
+  
+}
+#myButton:hover, myButton:focus{
+  background-color: var(--primary-color);
+  
+}
+
+.footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+    
+  /* margin: 0.5rem; */
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: black;
+  border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer .link{
+  color:black
+}
+
+.list-non-bullet{
+  list-style: none;
+}
+
+.list-item-inline{
+  display:inline;
+  padding: 0rem 0.5rem;
+}
+.navigation .link{
+  color:black
+}
