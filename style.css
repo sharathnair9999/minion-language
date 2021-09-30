@@ -8,6 +8,7 @@
 
 body{
 font-family: 'Architects Daughter', cursive;
+margin:0;
 }
 textarea{
   display: block;
@@ -30,7 +31,7 @@ textarea{
   background-color: var(--primary-color);
   color:black;
   padding: 0.5rem 5rem;
-  border-top-left-radius: 1rem;
+  border-radius: 1rem 2rem;
 }
 
 #myButton{
@@ -52,13 +53,11 @@ textarea{
   position: fixed;
   width: 100%;
   bottom: 0;
-    
-  /* margin: 0.5rem; */
   background-color: var(--primary-color);
   padding: 2rem 0rem;
   text-align: center;
   color: black;
-  border-bottom-right-radius: 1rem;
+  border-radius: 1rem 2rem;
 }
 
 .footer .footer-header{
