@@ -10,6 +10,6 @@ function fetchResult(){
   var url = "https://api.funtranslations.com/translate/minion.json?text="+txtInput.value
   console.log(url)
   fetch(url).then(response=>response.json()).then(json=>txtOutput.innerText=json.contents.translated).catch((errorHandler))
-  // console.log("Sharath", txtInput.value)
+  console.log("Sharath", txtInput.value)
 }
 myBtn.addEventListener("click", fetchResult)
